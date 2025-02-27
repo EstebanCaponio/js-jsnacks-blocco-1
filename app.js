@@ -24,9 +24,9 @@ console.log('---');
 // esercizio 3
 let somma = 0;
 for (let i = 1; i <= 10; i++) {
-    let numberUser = prompt('Inserisci il primo numero');
+    let numberUser = prompt('Inserisci un numero');
     let number = parseFloat(numberUser);
-    somma = somma + number2;
+    somma = somma + number;
 }
 console.log(somma);
 console.log('---');
