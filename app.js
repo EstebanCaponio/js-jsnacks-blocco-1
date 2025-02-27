@@ -4,8 +4,11 @@ let secondNumber = prompt('Inserisci il secondo numero');
 
 if (firstNumber > secondNumber) {
     console.log(firstNumber);
-} else
+} else if (secondNumber > firstNumber) {
     console.log(secondNumber);
+} else
+    console.log('i due numeri inseriti sono uguali');
+
 console.log('---');
 
 // esercizio 2
@@ -15,10 +18,12 @@ let secondWord = prompt('Inserisci la seconda parola');
 if (firstWord.length < secondWord.length) {
     console.log(firstWord);
     console.log(secondWord);
-} else {
+} if else {
     console.log(secondWord);
     console.log(firstWord);
-}
+} else
+console.log('le due parole sono lunghe uguali');
+
 console.log('---');
 
 // esercizio 3
@@ -33,7 +38,7 @@ console.log('---');
 
 // esercizio 4
 
-let dispari = [];
+let odd = [];
 
 for (i = 0; i < 6; i++) {
     let yourNumber = prompt('Inserisci un numero');
@@ -42,4 +47,4 @@ for (i = 0; i < 6; i++) {
         dispari.push(myNumber);
     }
 }
-console.log(dispari);
+console.log(odd);
