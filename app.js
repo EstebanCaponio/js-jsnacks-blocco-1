@@ -18,7 +18,7 @@ let secondWord = prompt('Inserisci la seconda parola');
 if (firstWord.length < secondWord.length) {
     console.log(firstWord);
     console.log(secondWord);
-} if else {
+} else if (firstWord.length > secondWord.length) {
     console.log(secondWord);
     console.log(firstWord);
 } else
