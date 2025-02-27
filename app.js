@@ -36,7 +36,7 @@ console.log('---');
 let dispari = [];
 
 for (i = 0; i < 6; i++) {
-    let yourNumber = prompt('Inserisci il primo numero');
+    let yourNumber = prompt('Inserisci un numero');
     let myNumber = parseFloat(yourNumber);
     if (!(myNumber % 2 === 0)) {
         dispari.push(myNumber);
