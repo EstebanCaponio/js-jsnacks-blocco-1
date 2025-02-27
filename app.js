@@ -27,13 +27,13 @@ console.log('le due parole sono lunghe uguali');
 console.log('---');
 
 // esercizio 3
-let somma = 0;
+let sum = 0;
 for (let i = 1; i <= 10; i++) {
     let numberUser = parseFloat(prompt('Inserisci un numero'));
     // let number = parseFloat(numberUser);
-    somma = somma + numberUser;
+    sum += numberUser;
 }
-console.log(somma);
+console.log(sum);
 console.log('---');
 
 // esercizio 4
