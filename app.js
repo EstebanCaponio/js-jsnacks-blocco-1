@@ -29,9 +29,9 @@ console.log('---');
 // esercizio 3
 let somma = 0;
 for (let i = 1; i <= 10; i++) {
-    let numberUser = prompt('Inserisci un numero');
-    let number = parseFloat(numberUser);
-    somma = somma + number;
+    let numberUser = parseFloat(prompt('Inserisci un numero'));
+    // let number = parseFloat(numberUser);
+    somma = somma + numberUser;
 }
 console.log(somma);
 console.log('---');
@@ -41,10 +41,10 @@ console.log('---');
 let odd = [];
 
 for (i = 0; i < 6; i++) {
-    let yourNumber = prompt('Inserisci un numero');
-    let myNumber = parseFloat(yourNumber);
-    if (!(myNumber % 2 === 0)) {
-        dispari.push(myNumber);
+    let yourNumber = parseFloat(prompt('Inserisci un numero'));
+    // let myNumber = parseFloat(yourNumber);
+    if (!(yourNumber % 2 === 0)) {
+        odd.push(yourNumber);
     }
 }
 console.log(odd);
